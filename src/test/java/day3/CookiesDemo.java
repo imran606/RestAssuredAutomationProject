@@ -11,6 +11,7 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.Map;
+import java.util.Set;
 
 public class CookiesDemo {
 	
@@ -59,10 +60,10 @@ public class CookiesDemo {
 		
 		//keySet method is used to extract the all keys in a map
 		//System.out.println(all_cookies.keySet());
+		Set<String> keySet = all_cookies.keySet();
+		//to print the values from the maps  
 		
-		//to print the values from themaps 
-		
-		for(String k:all_cookies.keySet()) {
+		for(String k:keySet) {
 			
 			String single_cookie = res.getCookie(k);
 			

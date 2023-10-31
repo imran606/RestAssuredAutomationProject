@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-31T11:56:34 IST" name="Default suite" finished-at="2023-10-31T11:56:40 IST" duration-ms="5974">
+  <suite started-at="2023-10-31T14:49:30 IST" name="Default suite" finished-at="2023-10-31T14:49:39 IST" duration-ms="8551">
     <groups>
     </groups>
-    <test started-at="2023-10-31T11:56:34 IST" name="Default test" finished-at="2023-10-31T11:56:40 IST" duration-ms="5974">
-      <class name="day3.CookiesDemo">
-        <test-method signature="getAllCookiesInfo()[pri:0, instance:day3.CookiesDemo@2b48a640]" started-at="2023-10-31T11:56:34 IST" name="getAllCookiesInfo" finished-at="2023-10-31T11:56:40 IST" duration-ms="5893" status="PASS">
+    <test started-at="2023-10-31T14:49:30 IST" name="Default test" finished-at="2023-10-31T14:49:39 IST" duration-ms="8551">
+      <class name="day3.LoggingToConsole_Print_response">
+        <test-method signature="usesOfLogAndItsMethods()[pri:0, instance:day3.LoggingToConsole_Print_response@2b48a640]" started-at="2023-10-31T14:49:30 IST" name="usesOfLogAndItsMethods" finished-at="2023-10-31T14:49:39 IST" duration-ms="8490" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllCookiesInfo -->
-      </class> <!-- day3.CookiesDemo -->
+        </test-method> <!-- usesOfLogAndItsMethods -->
+      </class> <!-- day3.LoggingToConsole_Print_response -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

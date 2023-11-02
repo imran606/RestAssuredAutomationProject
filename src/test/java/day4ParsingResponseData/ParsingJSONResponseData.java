@@ -73,12 +73,20 @@ public class ParsingJSONResponseData {
     	//you can use asString() to extract the content of the response as a String
     	JSONObject oj=new JSONObject(res.asString());//converting response to json object
     	
+    	boolean status=false;
     	for(int i=0;i<oj.getJSONArray("data").length();i++) {
     		
     		String lastname = oj.getJSONArray("data").getJSONObject(i).get("last_name").toString();
-    		System.out.println(lastname);
+    		//System.out.println(lastname);
+    		
+    		//if we want to fetch the specific lastname then we have to add some conditions
+    		if(lastname.equals("Funke")) {
+    			status=true;
+    			break; //if the condition is true it will break (stops)the for loop
+    		}
     		
     	}
+    	Assert.assertEquals(status, true);  //it will pass our test case it is true
     }
 		
 		

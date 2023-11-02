@@ -5,7 +5,7 @@
     <classes>
       <class name="day4ParsingResponseData.ParsingJSONResponseData">
         <methods>
-          <include name="validateTitleFromTheResponse"/>
+          <include name="validatePerticularKeyfromAllResponseBody"/>
         </methods>
       </class> <!-- day4ParsingResponseData.ParsingJSONResponseData -->
     </classes>

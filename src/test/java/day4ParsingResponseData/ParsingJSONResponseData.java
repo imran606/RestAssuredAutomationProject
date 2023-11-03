@@ -88,6 +88,23 @@ public class ParsingJSONResponseData {
     	}
     	Assert.assertEquals(status, true);  //it will pass our test case it is true
     }
+    
+    @Test  //print total price/add all id of the users
+    void printTotalValue() {
+    	
+    	Response response = given()
+    	.when().get("https://reqres.in/api/users?page=2");
+    	
+    	JSONObject oj=new JSONObject(response.asString());
+    	 int totalID=0;
+    	for(int i=0;i<oj.getJSONArray("data").length();i++) {
+    		
+    		String id = oj.getJSONArray("data").getJSONObject(i).get("id").toString();
+    		totalID=totalID+Integer.parseInt(id);
+    	}
+    	Assert.assertEquals(totalID, 57);
+    	System.out.println(totalID);
+    }
 		
 		
 		

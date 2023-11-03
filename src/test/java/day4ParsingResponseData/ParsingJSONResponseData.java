@@ -103,7 +103,7 @@ public class ParsingJSONResponseData {
     		totalID=totalID+Integer.parseInt(id);
     	}
     	Assert.assertEquals(totalID, 57);
-    	System.out.println(totalID);
+    	System.out.println(totalID+"parvez");
     }
 		
 		

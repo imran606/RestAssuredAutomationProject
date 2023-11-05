@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4ParsingResponseData.ParsingJSONResponseData">
+      <class name="day6JSONSchema_Validation.JsonSchemaValidator">
         <methods>
-          <include name="validatePerticularKeyfromAllResponseBody"/>
+          <include name="schemaValidation"/>
         </methods>
-      </class> <!-- day4ParsingResponseData.ParsingJSONResponseData -->
+      </class> <!-- day6JSONSchema_Validation.JsonSchemaValidator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

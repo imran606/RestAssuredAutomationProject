@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-03T01:34:12 IST" name="Default suite" finished-at="2023-11-03T01:34:16 IST" duration-ms="3963">
+  <suite started-at="2023-11-05T19:58:11 IST" name="Suite" finished-at="2023-11-05T19:58:27 IST" duration-ms="15560">
     <groups>
     </groups>
-    <test started-at="2023-11-03T01:34:12 IST" name="Default test" finished-at="2023-11-03T01:34:16 IST" duration-ms="3963">
-      <class name="day4ParsingResponseData.ParsingJSONResponseData">
-        <test-method signature="printTotalValue()[pri:0, instance:day4ParsingResponseData.ParsingJSONResponseData@2b48a640]" started-at="2023-11-03T01:34:12 IST" name="printTotalValue" finished-at="2023-11-03T01:34:16 IST" duration-ms="3573" status="PASS">
+    <test started-at="2023-11-05T19:58:11 IST" name="Test1" finished-at="2023-11-05T19:58:21 IST" duration-ms="9369">
+      <class name="day8_API_Chaining.CreateUsers">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:day8_API_Chaining.CreateUsers@10d307f1]" started-at="2023-11-05T19:58:11 IST" name="createUser" finished-at="2023-11-05T19:58:21 IST" duration-ms="9247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e9a5ed8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printTotalValue -->
-        <test-method signature="validatePerticularKeyfromAllResponseBody()[pri:0, instance:day4ParsingResponseData.ParsingJSONResponseData@2b48a640]" started-at="2023-11-03T01:34:16 IST" name="validatePerticularKeyfromAllResponseBody" finished-at="2023-11-03T01:34:16 IST" duration-ms="328" status="PASS">
+        </test-method> <!-- createUser -->
+      </class> <!-- day8_API_Chaining.CreateUsers -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-05T19:58:23 IST" name="Test2" finished-at="2023-11-05T19:58:25 IST" duration-ms="2439">
+      <class name="day8_API_Chaining.UpdateTheUser">
+        <test-method signature="UpdateTheUser1(org.testng.ITestContext)[pri:0, instance:day8_API_Chaining.UpdateTheUser@53ce1329]" started-at="2023-11-05T19:58:23 IST" name="UpdateTheUser1" finished-at="2023-11-05T19:58:25 IST" duration-ms="2429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@26a9c6df]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePerticularKeyfromAllResponseBody -->
-      </class> <!-- day4ParsingResponseData.ParsingJSONResponseData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- UpdateTheUser1 -->
+      </class> <!-- day8_API_Chaining.UpdateTheUser -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-05T19:58:25 IST" name="Test3" finished-at="2023-11-05T19:58:26 IST" duration-ms="692">
+      <class name="day8_API_Chaining.GetAUser">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:day8_API_Chaining.GetAUser@31fa1761]" started-at="2023-11-05T19:58:25 IST" name="getUser" finished-at="2023-11-05T19:58:26 IST" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bc08a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- day8_API_Chaining.GetAUser -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-11-05T19:58:26 IST" name="Test4" finished-at="2023-11-05T19:58:27 IST" duration-ms="831">
+      <class name="day8_API_Chaining.DeleteUser">
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:day8_API_Chaining.DeleteUser@550dbc7a]" started-at="2023-11-05T19:58:26 IST" name="deleteUser" finished-at="2023-11-05T19:58:27 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df24f19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day8_API_Chaining.DeleteUser -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
 </testng-results>

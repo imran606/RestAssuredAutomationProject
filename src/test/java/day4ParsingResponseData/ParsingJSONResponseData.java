@@ -37,7 +37,7 @@ public class ParsingJSONResponseData {
 		Assert.assertEquals(response.getStatusCode(),200);
 		// parcing through json body from each element
 		String id = response.jsonPath().get("data[0].id").toString();
-		String email= response.jsonPath().get("data[0].email").toString();
+		String email=response.jsonPath().get("data[0].email").toString();
 		String fname= response.jsonPath().get("data[0].first_name").toString();
 		String lname= response.jsonPath().get("data[0].last_name").toString();
 		String avatar= response.jsonPath().get("data[0].avatar").toString();
@@ -46,6 +46,7 @@ public class ParsingJSONResponseData {
 	     Assert.assertEquals(fname, "Michael");
 	     Assert.assertEquals(lname, "Lawson");
 	     Assert.assertEquals(avatar, "https://reqres.in/img/faces/7-image.jpg");
+	     response.jsonPath().get("data[0].email");
 
 		
         // the variable "authorObject" is stores the response in object form because this we cannot vallidate the response data using testNG methods thats why we are converting that to string format 
